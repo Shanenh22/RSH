@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | RSH Family Foundation</title>
+  <meta name="description" content="Contact Randy Harden and RSH Family Foundation about giving, pledges, and Rise Up Kings support.">
+  <link rel="icon" href="assets/images/rsh-family-foundation-logo.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <div data-include="header"></div>
+  <main id="main">
+    <section class="hero">
+      <div class="container">
+        <p class="eyebrow">Contact</p>
+        <h1>Questions about giving or pledging?</h1>
+        <p class="lead">Use this page for Randy Harden's contact information or connect the form to a static form handler before launch.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container grid-2">
+        <div>
+          <p class="eyebrow">Reach out</p>
+          <h2>Talk with Randy before making a gift.</h2>
+          <p>Add Randy's preferred phone number, email address, and mailing address here. For an S3-hosted static site, this form needs a service such as Formspree, Basin, Netlify Forms, or an AWS Lambda/API Gateway endpoint.</p>
+          <ul class="list-clean">
+            <li>Email: replace-with-email@example.com</li>
+            <li>Phone: replace with Randy's preferred phone number</li>
+            <li>Campaign: replace with the live Givebutter campaign URL</li>
+          </ul>
+        </div>
+        <form class="card form-card" action="https://formspree.io/f/REPLACE_FORM_ID" method="POST">
+          <h3>Send a message</h3>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+          <button class="button button-dark" type="submit">Send message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <div data-include="footer"></div>
+</body>
+</html>
